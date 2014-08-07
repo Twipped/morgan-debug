@@ -1,0 +1,30 @@
+{
+  "name": "morgan-debug",
+  "version": "0.1.0",
+  "description": "An extension of the morgan express logger to output through the debug library.",
+  "main": "morgan-debug.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiperSoft/morgan-debug"
+  },
+  "keywords": [
+    "express",
+    "logger",
+    "debug",
+    "morgan"
+  ],
+  "author": "Jarvis Badgley <chiper@chipersoft.com> (http://chipersoft.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChiperSoft/morgan-debug/issues"
+  },
+  "homepage": "https://github.com/ChiperSoft/morgan-debug",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "through2": "^0.5.1",
+    "morgan": "^1.2.2"
+  }
+}
