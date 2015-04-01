@@ -11,7 +11,7 @@ npm install morgan-debug
 
 **`morganDebug(namespace, format, [options]);`**
 
-- `namespace` is the debug namespace
+- `namespace` is the debug namespace or an instance of debug function
 - `format` is the morgan format
 - `options` is the options to be passed to morgan`
 
