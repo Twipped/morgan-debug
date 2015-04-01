@@ -4,8 +4,7 @@ var through2 = require('through2');
 
 module.exports = function (namespace, format, options) {
 	options = options || {};
-	var args = Array.prototype.slice(args, 1);
-	var debug = Debug(namespace);
+	var debug = typeof namespace == 'function' ? namespace : Debug(namespace);
 	var stream = through2(function (output, enc, callback) {
 		debug(output.toString('utf8').trim());
 		this.push(output);
