@@ -1,6 +1,6 @@
 {
   "name": "morgan-debug",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "An extension of the morgan express logger to output through the debug library.",
   "main": "morgan-debug.js",
   "scripts": {
