@@ -1,4 +1,10 @@
 
+2.0.0 / 2016-10-10
+==================
+
+  * Breaking Change: debug and morgan are now peer dependencies
+  * Fix events not being passed to debug if a destination stream is provided
+
 1.0.1 / 2016-10-10
 ==================
 
