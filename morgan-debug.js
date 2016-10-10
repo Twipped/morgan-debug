@@ -5,9 +5,11 @@ var through2 = require('through2');
 module.exports = function (namespace, format, options) {
 	options = options || {};
 	var debug = typeof namespace == 'function' ? namespace : Debug(namespace);
+	var passThru = !!options.stream;
+
 	var stream = through2(function (output, enc, callback) {
 		debug(output.toString('utf8').trim());
-		this.push(output);
+		if (passThru) this.push(output);
 		callback();
 	});
 
