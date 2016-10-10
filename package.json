@@ -4,7 +4,7 @@
   "description": "An extension of the morgan express logger to output through the debug library.",
   "main": "morgan-debug.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap tests"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
     "debug": "^2.1.3",
     "through2": "^0.6.3",
     "morgan": "^1.5.2"
+  },
+  "devDependencies": {
+    "express": "~4.14.0",
+    "stepperbox": "~1.3.0",
+    "supertest": "~2.0.0",
+    "tap": "~7.1.2"
   }
 }
