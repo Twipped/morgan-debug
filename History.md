@@ -1,4 +1,8 @@
 
+1.0.1 / 2016-10-10
+==================
+
+  * Fix memory leak when no destination stream is provided
 1.0.0 / 2015-05-01
 ==================
 
