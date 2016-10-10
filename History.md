@@ -3,6 +3,10 @@
 ==================
 
   * Fix memory leak when no destination stream is provided
+  * deps: debug@2.2.0
+  * deps: through2@2.0.1
+  * deps: morgan@1.7.0
+
 1.0.0 / 2015-05-01
 ==================
 
