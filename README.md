@@ -4,8 +4,10 @@ morgan-debug
 Morgan-debug is an express middleware which composes the [morgan](https://www.npmjs.org/package/morgan) logger middleware with the [debug](https://www.npmjs.org/package/debug) console output library for a consistent logging output with other library debug outputs.
 
 ```
-npm install morgan-debug
+npm install morgan debug morgan-debug
 ```
+
+Note that `morgan` and `debug` are both peer dependencies and must be installed separately.
 
 ## Usage
 
